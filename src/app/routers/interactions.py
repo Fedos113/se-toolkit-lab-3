@@ -20,5 +20,5 @@ async def get_interactions(
     if item_id is not None:
         interactions = [
             i for i in interactions if i.learner_id == item_id
-        ]  # BUG: should filter by i.item_id
+        ]  # BUG: should filter by i.item_id dder
     return interactions
